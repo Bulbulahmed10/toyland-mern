@@ -1,11 +1,11 @@
 import React from "react";
-
+import toyBannerImg from "../../assets/wallhaven-4y3gxg.jpg"
 const HomeBanner = () => {
   return (
     <div className="mt-6 relative">
       <img data-aos="zoom-in"
         className="w-full h-[650px] object-cover rounded-sm"
-        src="https://w.wallhaven.cc/full/4y/wallhaven-4y3gxg.jpg"
+        src={toyBannerImg}
         alt=""
       />
       <div className="absolute top-0 p-10 flex flex-col text-center justify-center w-full h-[650px] bg-[#0000007b]">
